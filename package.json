@@ -1,6 +1,6 @@
 {
   "name": "require-environment-variables",
-  "description": "Express middleware that blocks referral spam, and sends a 404.",
+  "description": "Require specific environment variables. If they don't exist, the application exits",
   "version": "1.0.0",
   "author": {
     "name": "Brian Noah",
