@@ -1,6 +1,6 @@
 module.exports = function (variableArray) {
 	if (!Array.isArray(variableArray)) {
-		logger.error('Array required')
+		console.error('Array required')
 		return;
 	}
 	var missingVariables = [];
@@ -10,7 +10,7 @@ module.exports = function (variableArray) {
 		}
 	}
 	if (missingVariables.length) {
-		logger.error('Environment variables needed:', JSON.stringify(missingVariables));
+		console.error('Environment variables needed:', JSON.stringify(missingVariables));
 		process.exit(404);
 	}
 }
