@@ -1,4 +1,4 @@
-Express middleware that blocks referral spam, and sends a 404. 
+Require certain environment variables.
 
 
 # Install

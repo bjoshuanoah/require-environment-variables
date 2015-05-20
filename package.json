@@ -1,0 +1,26 @@
+{
+  "name": "require-environment-variables",
+  "description": "Express middleware that blocks referral spam, and sends a 404.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Noah",
+    "email": "brianjoshuanoah@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjoshuanoah/require-environment-variables"
+  },
+  "keywords": [
+    "process",
+    "environment variables",
+    "dotenv"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "Readme.md",
+    "index.js"
+  ]
+}
