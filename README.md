@@ -11,3 +11,8 @@
     requireEnv(['GOOGLEANALYTICSID', 'SSLKEY', 'SSLCERT', 'SSLCA']);
 
   If any of the environment variables(process.env.GOOGLEANALYTICSID) don't exist, the process exits with code 400
+
+## Contribute
+
+    Update and add tests to tests/**/*.spec.js
+    Pull requests will verify that tests pass
