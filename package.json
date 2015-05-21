@@ -7,7 +7,7 @@
     "email": "brianjoshuanoah@gmail.com"
   },
   "scripts": {
-    "test": " mocha tests/**/*.spec.js"
+    "test": "mocha tests/**/*.spec.js"
   },
   "license": "MIT",
   "repository": {
