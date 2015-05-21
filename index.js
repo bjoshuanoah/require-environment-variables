@@ -11,6 +11,6 @@ module.exports = function (variableArray) {
 	}
 	if (missingVariables.length) {
 		console.error('Environment variables needed:', JSON.stringify(missingVariables));
-		process.exit(404);
+		throw 'Environment variables missing';
 	}
 }

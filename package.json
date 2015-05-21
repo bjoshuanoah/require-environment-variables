@@ -1,10 +1,13 @@
 {
   "name": "require-environment-variables",
   "description": "Require specific environment variables. If they don't exist, the application exits",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "author": {
     "name": "Brian Noah",
     "email": "brianjoshuanoah@gmail.com"
+  },
+  "scripts": {
+    "test": " mocha tests/**/*.spec.js"
   },
   "license": "MIT",
   "repository": {
@@ -22,5 +25,12 @@
   "files": [
     "Readme.md",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "chai": "^2.3.0",
+    "dotenv": "^1.1.0",
+    "install": "^0.1.8",
+    "mocha": "^2.2.5",
+    "npm": "^2.10.0"
+  }
 }
