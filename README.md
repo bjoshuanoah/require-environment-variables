@@ -1,4 +1,4 @@
-# Require specific environment variables [![Build Status](https://travis-ci.org/bjoshuanoah/require-environment-variables.svg?branch=master)](https://travis-ci.org/bjoshuanoah/require-environment-variables)
+# require-environment-variables [![Build Status](https://travis-ci.org/bjoshuanoah/require-environment-variables.svg?branch=master)](https://travis-ci.org/bjoshuanoah/require-environment-variables)
 
 
 ## Install
