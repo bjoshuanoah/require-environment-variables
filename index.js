@@ -1,6 +1,8 @@
+'use strict';
+
 module.exports = function (variableArray) {
 	if (!Array.isArray(variableArray)) {
-		console.error('Array required')
+		console.error('Array required');
 		return;
 	}
 	var missingVariables = [];
@@ -11,6 +13,6 @@ module.exports = function (variableArray) {
 	}
 	if (missingVariables.length) {
 		console.error('Environment variables needed:', JSON.stringify(missingVariables));
-		throw 'Environment variables missing';
+		throw new Error('Environment variables missing');
 	}
-}
+};
