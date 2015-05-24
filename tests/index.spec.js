@@ -8,15 +8,15 @@ describe('require-environment-variables', function () {
 
 	it('should verify that process.env.THISISATEST exists', function (done) {
 		expect(function () {
-			requireEnv(['THISISATEST'])
+			requireEnv(['THISISATEST']);
 		}).to.not.throw('Environment variables missing');
 		done();
 	});
 
 	it('should throw an error that process.env.THISDOESNTEXIST is missing', function (done) {
 		expect(function () {
-			requireEnv(['THISDOESNTEXIST'])
-		}).to.throw('Environment variables missing');
+			requireEnv(['THISDOESNTEXIST']);
+		}).to.throw(Error, /Environment variables missing/);
 		done();
 	});
 
