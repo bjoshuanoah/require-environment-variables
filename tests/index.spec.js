@@ -20,4 +20,10 @@ describe('require-environment-variables', function () {
 		done();
 	});
 
+    it('should return an object of keys and values', function (done) {
+        var expectedEnvVars = requireEnv(['THISISATEST']);
+        expect(expectedEnvVars.THISISATEST).to.equal('YELLOWORANGE');
+        done();
+    })
+
 });
