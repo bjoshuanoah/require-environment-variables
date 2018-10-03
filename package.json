@@ -1,7 +1,7 @@
 {
   "name": "require-environment-variables",
   "description": "Require specific environment variables. If they don't exist, the application exits",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": {
     "name": "Brian Noah",
     "email": "brianjoshuanoah@gmail.com"
