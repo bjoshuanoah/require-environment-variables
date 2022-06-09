@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = function (variableArray) {
-    var envArr = {};
+module.exports = function (variableArray: string[]) {
+    var envArr:any = {};
 
 	if (!Array.isArray(variableArray)) {
 		console.error('Array required');
