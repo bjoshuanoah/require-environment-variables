@@ -2,11 +2,11 @@
 
 ## Install
 
-js
+npm
     
     npm install require-environment-variables --save
 
-ts
+yarn
 
     yarn add require-environment-variables
 
